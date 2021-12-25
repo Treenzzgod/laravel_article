@@ -1,0 +1,103 @@
+@media screen and (min-width: 601px) {
+    .secondary-text{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .secondary-text{
+        font-size: 35px;
+    }
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  color: #000;
+}
+
+header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+    font-size: 2.25rem;
+}
+
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+header.masthead .post-heading .subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.75rem 0 2rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading .meta {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading .meta a {
+  color: #000;
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+      padding-top: 12.5rem;
+      padding-bottom: 3rem;
+    }
+    header.masthead .page-heading h1, header.masthead .page-heading .h1,
+    header.masthead .site-heading h1,
+    header.masthead .site-heading .h1 {
+      font-size: 5rem;
+    }
+    header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+      font-size: 3.5rem;
+    }
+    header.masthead .post-heading .subheading {
+      font-size: 1.875rem;
+    }
+}
+
+.nav-text{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;   
+}
+
+.primary-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #77D970;
+}
+
+.secondary-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 56px;
+    color: #3A6351;
+}
+
+.p-text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #3A6351;
+}
+
+.btn-read{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.img-card{
+    height: 450px;
+    object-fit: cover;
+}
